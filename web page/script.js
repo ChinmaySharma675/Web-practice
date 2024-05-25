@@ -14,6 +14,30 @@ window.addEventListener('resize', function() {
         navList.classList.remove("active");
     }
 });
+           
+
+
+
+
+
+document.getElementById("theme-toggle").addEventListener("click", function() {
+    document.body.classList.toggle("dark-theme");
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
