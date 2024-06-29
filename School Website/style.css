@@ -1,0 +1,133 @@
+/* Custom styles for the Chinmay School Of Knowledge website */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header nav a {
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #e0e0e0;
+}
+
+header a {
+    transition: background-color 0.3s ease;
+}
+
+header a:hover {
+    background-color: #e0e0e0;
+}
+
+main section {
+    margin-bottom: 2rem;
+    max-height: 500px;
+}
+
+main h1,
+main h2 {
+    color: #333;
+   
+}
+h2{
+    margin-bottom: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+footer {
+    margin-top: 2rem;
+    
+}
+
+.dynamic-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 32% 36% 64% 68%;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 3rem 2rem;
+}
+
+
+.dynamic-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    background-color: #f3f4f6;
+}
+
+
+
+
+
+.highlight {
+    color: #FFD700;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.md\:flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.md\:w-1\/2 {
+    width: 50%;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+#loginModal.hidden {
+    display: none;
+}
+
+#loginModal {
+    display: flex;
+}
+/* Custom styles for the first section */
+.first-section {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+}
+
+.first-section .dynamic-card {
+    width: 100%;
+    max-width: none;
+    border-radius: 0;
+    padding: 3rem 1rem;
+}
+
+
+.content-center {
+    width: 100%;
+}
+
+.first-section p {
+    color: white;
+}
+
